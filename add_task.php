@@ -51,6 +51,22 @@ $result = $conn->query($sql);
         th{ 
             font-weight:bold;
 
+        } 
+                @media (max-width: 992px) {
+            table {
+                width: 100%;
+            }
+
+            .btn {
+                margin-bottom: 5px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .btn {
+                display: block;
+                width: 100%;
+            }
         }
 
     </style>
