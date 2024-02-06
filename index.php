@@ -69,6 +69,11 @@
         input[type="submit"]:hover,
         a:hover {
             background-color: #0056b3;
+        } 
+                @media (max-width: 600px) {
+            .container {
+                max-width: 90%;
+            }
         }
     </style>
 </head>
